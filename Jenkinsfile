@@ -13,8 +13,8 @@ pipeline {
           steps {
             sh '''#!/bin/bash
 
-ssh -tt root@192.168.0.35 \'
-ls -ltr\''''
+echo "ssh -tt root@192.168.0.35"
+'''
           }
         }
 
